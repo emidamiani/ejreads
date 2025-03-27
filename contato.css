@@ -57,7 +57,7 @@ main {
 }
 
 .section {
-    background-color: #e9708e;
+   
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -68,8 +68,8 @@ main {
     border-radius: 50%;
 }
 .box {
-    background-color: #e9708e;
-    color: white;
+    
+    color: rgb(0, 0, 0);
     padding: 40px;
     text-align: center;
     width: 90%;

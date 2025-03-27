@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Exemplo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
     <title>EJReads</title>
 </head>
@@ -27,29 +30,43 @@
 
     <!-- Conteúdo Principal -->
     <main>
-        <div class="content-wrapper">
-            <section class="main-content">
-                <div class="section">
-                    <div class="box texto">                       
+        <div class="container text-center">
+            <div class="row section">
+              <div class="col">
+                                     
                     <h2>NOSSO PROPÓSITO</h2>
                         <p>O nosso site é pra ajudar quem vai fazer vestibular. A gente tem resumos e listas das obras obrigatórias que caem nos vestibulares, tudo de um jeito fácil pra estudar melhor e ir bem nas provas!</p>
                     </section>
                     </div>
-                    <div class="box imagem"><img src="img/emi e ju.jpg" alt="emi e ju"></div>
-                </div>  
-            
-                <div class="section">
-                    <div class="box imagem"><img src="img/biblioteca.jpg" alt="biblioteca imagem"></div>
-                    <div class="box texto"> <p>Somos alunos do Colégio Estadual Laranjeiras do Sul, que viemos por meio desse ajudar no estudo da literatura de jovens vestibulandos. Para mantermos vocês sempre informados, conforme o aumento de participações nesse site, traremos mais faculdades e suas literaturas! Esperamos que gostem!</p></div>
-                </div>
-            </section>
+             
+              <div class="col">
+                <div class="box imagem"><img class="txt-center" src="biblioteca.jpg" alt="emi e ju"></div>
+              </div> 
+            </div>
+        </div>
 
+
+        <div class="text-center">
+            <div class="row">
+              <div class="col">
+                <img class="txt-center" src="biblioteca.jpg" alt="biblioteca imagem">       
+              </div>
+              <div class="col">
+                 <p>Somos alunos do Colégio Estadual Laranjeiras do Sul, que viemos por meio desse ajudar no estudo da literatura de jovens vestibulandos. Para mantermos vocês sempre informados, conforme o aumento de participações nesse site, traremos mais faculdades e suas literaturas! Esperamos que gostem!</p>
+              </div>
+              <div class="col">
+                <aside class="sidebar">
+                    <div class="box link">Obras obrigatórias UNICENTRO 2025</div>
+                    <div class="box link">Obras obrigatórias UEPG 2025</div>
+                    <div class="box link">Obras obrigatórias  UFPR 2025</div>
+                    <div class="box link">Obras obrigatórias  UNIOESTE 2025</div>
+                </aside>
+              </div>
+            </div>
+         </div>
+            
             <!-- Barra Lateral -->
-            <aside class="sidebar">
-                <div class="box link">link</div>
-                <div class="box link">link</div>
-                <div class="box link">link</div>
-            </aside>
+            
         </div>
     </main>
 
