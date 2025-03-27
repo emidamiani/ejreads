@@ -1,0 +1,25 @@
+p{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.corpreta{
+    background-color: black;
+    text-align: center;
+    width: 600px;
+}
+
+.corazul{
+    background-color: blue;
+    text-align: center;
+    width: 300px;
+}
+
+.imagem{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 0 rgba(0, 0, 0, 0.228);
+}
